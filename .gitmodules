@@ -1,0 +1,3 @@
+[submodule "GoDemoFirst"]
+	path = GoDemoFirst
+	url = https://github.com/zhiwen-kooboo/GoDemoFirst.git
