@@ -45,5 +45,5 @@ func main() {
 	var k rune = 1
 	var l byte = 1
 
-	fmt.Println("hello from fmt2 " + n)
+	fmt.Println("hello from fmt2 ")
 }
