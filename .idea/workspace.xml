@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c343a9d-6488-406b-9912-c84d634cee92" name="默认更改列表" comment="">
-      <change beforePath="$PROJECT_DIR$/a.go" beforeDir="false" afterPath="$PROJECT_DIR$/HelloWorld.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorld.go" beforeDir="false" afterPath="$PROJECT_DIR$/HelloWorld.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/HelloWorld.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="23" column="19" lean-forward="true" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+            <state relative-caret-position="131">
+              <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="55" selection-end-column="27" />
               <folding>
                 <element signature="e#35#64#0" expanded="true" />
               </folding>
@@ -51,6 +51,7 @@
       <list>
         <option value="$PROJECT_DIR$/test.go" />
         <option value="$PROJECT_DIR$/a.go" />
+        <option value="$PROJECT_DIR$/HelloWorld.go" />
       </list>
     </option>
   </component>
@@ -138,7 +139,7 @@
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.3289689" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32786885" />
       <window_info anchor="bottom" id="Event Log" sideWeight="0.50075644" side_tool="true" weight="0.3289689" />
       <window_info anchor="bottom" id="调试" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -170,8 +171,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HelloWorld.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="23" column="19" lean-forward="true" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+        <state relative-caret-position="131">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="55" selection-end-column="27" />
           <folding>
             <element signature="e#35#64#0" expanded="true" />
           </folding>
