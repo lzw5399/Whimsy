@@ -14,7 +14,7 @@ func main() {
 
 
 	d := uint8(a) + uint8(b) + uint8(c)*/
-	var a int = 65
+	var a = 65
 	d := strconv.Itoa(a)
 	fmt.Println(d)
 }
