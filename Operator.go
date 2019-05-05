@@ -24,4 +24,6 @@ func main() {
 	if a != b {
 		fmt.Println(a != b)
 	}
+
+	fmt.Println("done")
 }
