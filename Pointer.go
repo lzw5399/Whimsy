@@ -22,7 +22,7 @@ func main() {
 	v1 := 66
 	v2 := 77
 	swap(&v1, &v2)
-	fmt.Println("指针修改后为", v1, v2)
+	fmt.Println("指针修改后a,b为:", v1, v2)
 }
 
 // 通过指针修改值
