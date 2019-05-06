@@ -1,16 +1,11 @@
 package main
 
-import (
-	"flag"
-	"fmt"
-)
+import "fmt"
 
-var mode = flag.String("mode", "sds", "process mode")
+// var mode = flag.String("mode", "sds", "process mode")
 
 func main() {
-	// flag.Parse()
-
-	fmt.Println(mode)
-
-	fmt.Println(*mode)
+	a := new(int)
+	*a = 88
+	fmt.Println(*a)
 }
