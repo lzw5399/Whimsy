@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c343a9d-6488-406b-9912-c84d634cee92" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/Array.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array_Pointer.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MultiArray.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array_Range.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,12 +28,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MultiArray.go">
+        <entry file="file://$PROJECT_DIR$/Array_Range.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+            <state relative-caret-position="190">
+              <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
               <folding>
-                <element signature="e#22#36#0" expanded="true" />
+                <element signature="e#14#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -92,10 +90,11 @@
         <option value="$PROJECT_DIR$/Array.go" />
         <option value="$PROJECT_DIR$/Array_Pointer.go" />
         <option value="$PROJECT_DIR$/MultiArray.go" />
+        <option value="$PROJECT_DIR$/Array_Range.go" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="78" />
     <option name="y" value="98" />
     <option name="width" value="1346" />
@@ -147,7 +146,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build MultiArray.go">
+  <component name="RunManager" selected="Go Build.go build Array_Range.go">
     <configuration name="go build Array_Pointer.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="MyGo1" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -157,20 +156,20 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build Array_Range.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="MyGo1" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/Array_Range.go" />
+      <package value="MyGo1" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build Array.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="MyGo1" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/Array.go" />
-      <package value="MyGo1" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build Continue.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="MyGo1" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Continue.go" />
       <package value="MyGo1" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
@@ -194,19 +193,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build Continue.go" />
       <item itemvalue="Go Build.go build goto_homework.go" />
       <item itemvalue="Go Build.go build Array.go" />
       <item itemvalue="Go Build.go build Array_Pointer.go" />
       <item itemvalue="Go Build.go build MultiArray.go" />
+      <item itemvalue="Go Build.go build Array_Range.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build Array_Range.go" />
         <item itemvalue="Go Build.go build MultiArray.go" />
         <item itemvalue="Go Build.go build Array_Pointer.go" />
         <item itemvalue="Go Build.go build Array.go" />
         <item itemvalue="Go Build.go build goto_homework.go" />
-        <item itemvalue="Go Build.go build Continue.go" />
       </list>
     </recent_temporary>
   </component>
@@ -433,10 +432,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MultiArray.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        <state relative-caret-position="323">
+          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
           <folding>
             <element signature="e#22#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Array_Range.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding>
+            <element signature="e#14#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
