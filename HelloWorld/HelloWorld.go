@@ -1,5 +1,5 @@
 // 当前程序的包名
-package main
+package HelloWorld
 
 // 导入其他的包
 import (
@@ -9,8 +9,8 @@ import (
 
 // 全局常量的定义
 const (
-	Pi  = 3.14
-	d = "1"
+	Pi = 3.14
+	d  = "1"
 )
 
 // 全局变量的定义
@@ -20,15 +20,15 @@ var (
 
 // 一般类型声明
 type (
-	newType int
+	newType  int
 	newType2 string
 )
 
 // 结构体声明
-type gopher struct { }
+type gopher struct{}
 
 // 接口声明
-type golang interface { }
+type golang interface{}
 
 func main() {
 	// 整形

@@ -1,6 +1,6 @@
 // 指针
 
-package main
+package Pointers
 
 import (
 	"fmt"

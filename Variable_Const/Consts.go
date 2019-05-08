@@ -1,11 +1,11 @@
 // 常量&枚举
-package main
+package Variable_Const
 
 import "fmt"
 
 // 星期枚举例子
 const (
-	a = 'A'
+	a      = 'A'
 	Monday = iota
 	Tuesday
 	Wednesday

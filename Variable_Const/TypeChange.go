@@ -1,4 +1,4 @@
-package main
+package Variable_Const
 
 import (
 	"fmt"

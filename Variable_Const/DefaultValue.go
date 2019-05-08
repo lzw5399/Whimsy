@@ -1,6 +1,6 @@
 // Go中的默认值
 // Go中类型的声明
-package main
+package Variable_Const
 
 import (
 	"fmt"

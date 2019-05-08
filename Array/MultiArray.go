@@ -1,5 +1,5 @@
 // 多维数组
-package main
+package Array
 
 import (
 	"fmt"

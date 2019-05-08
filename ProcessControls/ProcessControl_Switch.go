@@ -1,5 +1,5 @@
 // 流程控制之switch
-package main
+package ProcessControls
 
 import (
 	"fmt"

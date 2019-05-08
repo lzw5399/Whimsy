@@ -1,12 +1,9 @@
 // 运算符
-package main
+package Operators
 
 import "fmt"
 
-const(
-
-
-)
+const ()
 
 func main() {
 	a := 6 & 11  // 按位与

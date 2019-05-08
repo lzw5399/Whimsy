@@ -1,5 +1,5 @@
 // Goto
-package main
+package Loop
 
 import "fmt"
 
