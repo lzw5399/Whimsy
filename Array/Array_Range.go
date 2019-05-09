@@ -1,4 +1,4 @@
-package Array
+package main
 
 import (
 	"fmt"
@@ -7,7 +7,10 @@ import (
 func main() {
 	team := [3]string{"hello", "sun", "tom"}
 
-	for k, v := range team {
-		fmt.Println(k, v)
+	for i, v := range team {
+		if v == "sun" {
+			team[i] = "666"
+		}
+		fmt.Println(i, team[i])
 	}
 }
