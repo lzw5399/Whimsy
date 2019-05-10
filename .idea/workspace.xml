@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c343a9d-6488-406b-9912-c84d634cee92" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/Map/Map.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Map/Map_ArrayKey.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Map/Map_Complex.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Map/Map_Homework.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Map/Map_OrderBy.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Map/Map_Range.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functions/Function.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functions/Function_AlsoAType.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functions/Function_Params.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functions/Function_PointerParam.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functions/Function_SliceAsParam.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array/Array_Range.go" beforeDir="false" afterPath="$PROJECT_DIR$/Array/Array_Range.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +30,17 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Functions/Function_AlsoAType.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -98,6 +106,11 @@
         <option value="$PROJECT_DIR$/Map/Map_ArrayKey.go" />
         <option value="$PROJECT_DIR$/Map/Map_OrderBy.go" />
         <option value="$PROJECT_DIR$/Map/Map_Homework.go" />
+        <option value="$PROJECT_DIR$/Functions/Function.go" />
+        <option value="$PROJECT_DIR$/Functions/Function_Params.go" />
+        <option value="$PROJECT_DIR$/Functions/Function_SliceAsParam.go" />
+        <option value="$PROJECT_DIR$/Functions/Function_PointerParam.go" />
+        <option value="$PROJECT_DIR$/Functions/Function_AlsoAType.go" />
       </list>
     </option>
   </component>
@@ -126,12 +139,7 @@
             <path>
               <item name="MyGo1" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyGo1" type="462c0819:PsiDirectoryNode" />
-              <item name="Array" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyGo1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyGo1" type="462c0819:PsiDirectoryNode" />
-              <item name="Map" type="462c0819:PsiDirectoryNode" />
+              <item name="Functions" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -173,66 +181,66 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build Map_Homework.go">
-    <configuration name="go build Array_Range.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build Function_AlsoAType.go">
+    <configuration name="go build Function_AlsoAType.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="MyGo1" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Array/Array_Range.go" />
+      <filePath value="$PROJECT_DIR$/Functions/Function_AlsoAType.go" />
       <package value="MyGo1" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build Map_ArrayKey.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build Function_Params.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="MyGo1" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Map/Map_ArrayKey.go" />
+      <filePath value="$PROJECT_DIR$/Functions/Function_Params.go" />
       <package value="MyGo1" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build Map_Homework.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build Function_PointerParam.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="MyGo1" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Map/Map_Homework.go" />
+      <filePath value="$PROJECT_DIR$/Functions/Function_PointerParam.go" />
       <package value="MyGo1" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build Map_OrderBy.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build Function_SliceAsParam.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="MyGo1" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Map/Map_OrderBy.go" />
+      <filePath value="$PROJECT_DIR$/Functions/Function_SliceAsParam.go" />
       <package value="MyGo1" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build Map_Range.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build Function.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="MyGo1" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Map/Map_Range.go" />
+      <filePath value="$PROJECT_DIR$/Functions/Function.go" />
       <package value="MyGo1" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build Map_Range.go" />
-      <item itemvalue="Go Build.go build Array_Range.go" />
-      <item itemvalue="Go Build.go build Map_ArrayKey.go" />
-      <item itemvalue="Go Build.go build Map_OrderBy.go" />
-      <item itemvalue="Go Build.go build Map_Homework.go" />
+      <item itemvalue="Go Build.go build Function.go" />
+      <item itemvalue="Go Build.go build Function_Params.go" />
+      <item itemvalue="Go Build.go build Function_SliceAsParam.go" />
+      <item itemvalue="Go Build.go build Function_PointerParam.go" />
+      <item itemvalue="Go Build.go build Function_AlsoAType.go" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build Map_Homework.go" />
-        <item itemvalue="Go Build.go build Map_OrderBy.go" />
-        <item itemvalue="Go Build.go build Map_ArrayKey.go" />
-        <item itemvalue="Go Build.go build Array_Range.go" />
-        <item itemvalue="Go Build.go build Map_Range.go" />
+        <item itemvalue="Go Build.go build Function_AlsoAType.go" />
+        <item itemvalue="Go Build.go build Function_PointerParam.go" />
+        <item itemvalue="Go Build.go build Function_SliceAsParam.go" />
+        <item itemvalue="Go Build.go build Function_Params.go" />
+        <item itemvalue="Go Build.go build Function.go" />
       </list>
     </recent_temporary>
   </component>
@@ -247,8 +255,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49775785" visible="true" weight="0.22163388" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49775785" visible="true" weight="0.2246596" />
       <window_info id="Structure" order="1" sideWeight="0.50224215" side_tool="true" weight="0.21860817" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -412,13 +421,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Loop/Break.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="13" lean-forward="true" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Loop/goto_homework.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -515,30 +517,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Map/Map_Complex.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Map/Map.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Map/Map_ArrayKey.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-          <folding>
-            <element signature="e#14#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Map/Map_Range.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -556,13 +534,85 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Loop/Break.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Map/Map_ArrayKey.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Map/Map_Complex.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Map/Map_Homework.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
+        <state relative-caret-position="250">
           <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Map/Map.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functions/Function.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="11" column="20" selection-end-line="19" />
           <folding>
-            <element signature="e#14#26#0" expanded="true" />
+            <element signature="e#14#28#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functions/Function_Params.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+          <folding>
+            <element signature="e#14#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functions/Function_SliceAsParam.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="7" column="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#14#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functions/Function_PointerParam.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" selection-end-line="17" />
+          <folding>
+            <element signature="e#14#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functions/Function_AlsoAType.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
