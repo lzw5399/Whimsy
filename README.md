@@ -1,2 +1,1 @@
-# GoDemoFirst
-first go demo
+# GolangDemo
