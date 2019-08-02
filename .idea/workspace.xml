@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c343a9d-6488-406b-9912-c84d634cee92" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/HelloWorld/PrintHtml.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,19 +24,6 @@
     </option>
     <expand />
     <select />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Functions/Function_AlsoAType.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -59,88 +47,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/ProcessControls/ProcessControl.go" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Pointers/Pointer.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProcessControls/ProcessControl.go" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/HelloWorld/HelloWorld.go" root0="SKIP_INSPECTION" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/test.go" />
-        <option value="$PROJECT_DIR$/a.go" />
-        <option value="$PROJECT_DIR$/HelloWorld.go" />
-        <option value="$PROJECT_DIR$/DefaultValue.go" />
-        <option value="$PROJECT_DIR$/TypeChange.go" />
-        <option value="$PROJECT_DIR$/Consts.go" />
-        <option value="$PROJECT_DIR$/Operator.go" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/MultiplicationTable.go" />
-        <option value="$PROJECT_DIR$/Pointer.go" />
-        <option value="$PROJECT_DIR$/Pointer_TestMe.go" />
-        <option value="$PROJECT_DIR$/ProcessControl.go" />
-        <option value="$PROJECT_DIR$/ProcessControl_Switch.go" />
-        <option value="$PROJECT_DIR$/Goto.go" />
-        <option value="$PROJECT_DIR$/Break.go" />
-        <option value="$PROJECT_DIR$/Continue.go" />
-        <option value="$PROJECT_DIR$/goto_homework.go" />
-        <option value="$PROJECT_DIR$/Array.go" />
-        <option value="$PROJECT_DIR$/Array_Pointer.go" />
-        <option value="$PROJECT_DIR$/MultiArray.go" />
-        <option value="$PROJECT_DIR$/Array_Range.go" />
-        <option value="$PROJECT_DIR$/Loop/MultiplicationTable.go" />
-        <option value="$PROJECT_DIR$/Slice/Slice.go" />
-        <option value="$PROJECT_DIR$/Slice/Slice_ChangeValue.go" />
-        <option value="$PROJECT_DIR$/Slice/Slice_Reslice.go" />
-        <option value="$PROJECT_DIR$/Slice/Slice_Append.go" />
-        <option value="$PROJECT_DIR$/Slice/Slice_Copy.go" />
-        <option value="$PROJECT_DIR$/Slice/Slice_Homework.go" />
-        <option value="$PROJECT_DIR$/Map/Map.go" />
-        <option value="$PROJECT_DIR$/Map/Map_Complex.go" />
-        <option value="$PROJECT_DIR$/Map/Map_Range.go" />
-        <option value="$PROJECT_DIR$/Array/Array_Range.go" />
-        <option value="$PROJECT_DIR$/Map/Map_ArrayKey.go" />
-        <option value="$PROJECT_DIR$/Map/Map_OrderBy.go" />
-        <option value="$PROJECT_DIR$/Map/Map_Homework.go" />
-        <option value="$PROJECT_DIR$/Functions/Function.go" />
-        <option value="$PROJECT_DIR$/Functions/Function_Params.go" />
-        <option value="$PROJECT_DIR$/Functions/Function_SliceAsParam.go" />
-        <option value="$PROJECT_DIR$/Functions/Function_PointerParam.go" />
-        <option value="$PROJECT_DIR$/Functions/Function_AlsoAType.go" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="78" />
-    <option name="y" value="98" />
-    <option name="width" value="1346" />
-    <option name="height" value="688" />
-  </component>
+  <component name="ProjectId" id="1Omdaa3woYiRO1fwvIMLZ9J7bGL" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="添加" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="MyGo1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyGo1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyGo1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyGo1" type="462c0819:PsiDirectoryNode" />
-              <item name="Functions" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
@@ -148,11 +61,15 @@
     <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
@@ -176,7 +93,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build Function_AlsoAType.go">
+  <component name="RunManager" selected="Go Build.go build PrintHtml.go">
     <configuration name="go build Function_AlsoAType.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="MyGo1" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -213,29 +130,28 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build Function.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build PrintHtml.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="MyGo1" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Functions/Function.go" />
-      <package value="MyGo1" />
+      <filePath value="$PROJECT_DIR$/HelloWorld/PrintHtml.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build Function.go" />
       <item itemvalue="Go Build.go build Function_Params.go" />
       <item itemvalue="Go Build.go build Function_SliceAsParam.go" />
       <item itemvalue="Go Build.go build Function_PointerParam.go" />
       <item itemvalue="Go Build.go build Function_AlsoAType.go" />
+      <item itemvalue="Go Build.go build PrintHtml.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build PrintHtml.go" />
         <item itemvalue="Go Build.go build Function_AlsoAType.go" />
         <item itemvalue="Go Build.go build Function_PointerParam.go" />
         <item itemvalue="Go Build.go build Function_SliceAsParam.go" />
         <item itemvalue="Go Build.go build Function_Params.go" />
-        <item itemvalue="Go Build.go build Function.go" />
       </list>
     </recent_temporary>
   </component>
@@ -248,34 +164,21 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49775785" visible="true" weight="0.22768533" />
-      <window_info id="Structure" order="1" sideWeight="0.50224215" side_tool="true" weight="0.21860817" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info anchor="bottom" id="Debug" order="2" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="5" weight="0.32786885" />
-      <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3295082" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3275488" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010661" side_tool="true" weight="0.27006507" />
-      <window_info anchor="bottom" id="调试" order="11" weight="0.3286334" />
-      <window_info anchor="bottom" id="Run" order="12" sideWeight="0.4989339" weight="0.26885247" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" weight="0.3290469" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
@@ -292,324 +195,5 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test.go" />
-    <entry file="file://$PROJECT_DIR$/GoDemoFirst/README.md" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="38">
-            <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Operators/Operator.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Variable_Const/TypeChange.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HelloWorld/HelloWorld.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-328">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-          <folding>
-            <element signature="e#35#62#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Variable_Const/DefaultValue.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="29" selection-start-line="29" selection-end-line="32" selection-end-column="3" />
-          <folding>
-            <element signature="e#37#64#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Go/src/runtime/proc.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="208" selection-start-line="208" selection-end-line="208" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Go/src/sync/pool.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="179" selection-start-line="179" selection-end-line="179" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Go/src/fmt/print.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="133" selection-start-line="133" selection-end-line="133" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pointers/Pointer_TestMe.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pointers/Pointer.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-          <folding>
-            <element signature="e#21#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Variable_Const/Consts.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProcessControls/ProcessControl.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProcessControls/ProcessControl_Switch.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding>
-            <element signature="e#29#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Loop/Continue.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" selection-start-line="4" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Loop/Goto.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="30" lean-forward="true" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Loop/goto_homework.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Array/MultiArray.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-          <folding>
-            <element signature="e#22#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Loop/MultiplicationTable.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Slice/Slice.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="13" column="18" lean-forward="true" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Slice/Slice_Append.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Slice/Slice_ChangeValue.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="14" selection-end-column="1" />
-          <folding>
-            <element signature="e#14#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Slice/Slice_Copy.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Slice/Slice_Reslice.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="17" />
-          <folding>
-            <element signature="e#14#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Slice/Slice_Homework.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Array/Array_Pointer.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="7" selection-start-line="7" selection-end-line="13" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Array/Array.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Array/Array_Range.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding>
-            <element signature="e#15#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Map/Map_Range.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Map/Map_OrderBy.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-          <folding>
-            <element signature="e#14#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Loop/Break.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Map/Map_ArrayKey.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Map/Map_Complex.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Map/Map_Homework.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Map/Map.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Functions/Function.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="11" column="20" selection-end-line="19" />
-          <folding>
-            <element signature="e#14#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Functions/Function_Params.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-          <folding>
-            <element signature="e#14#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Functions/Function_SliceAsParam.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="7" column="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#14#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Functions/Function_PointerParam.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" selection-end-line="17" />
-          <folding>
-            <element signature="e#14#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Functions/Function_AlsoAType.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>
