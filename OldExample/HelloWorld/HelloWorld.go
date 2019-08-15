@@ -1,5 +1,5 @@
 // 当前程序的包名
-package HelloWorld
+package main
 
 // 导入其他的包
 import (
