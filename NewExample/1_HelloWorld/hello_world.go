@@ -2,10 +2,10 @@ package main
 
 import (
 	test "fmt"
-	_ "os"
+	_ "io"
 )
 
-// 常量
+// 		常量
 const PI = 3.14
 const (
 	A = 1
@@ -20,7 +20,7 @@ var (
 )
 
 // 一般type
-type newType int
+type newType rune
 type (
 	e string
 	f uint
