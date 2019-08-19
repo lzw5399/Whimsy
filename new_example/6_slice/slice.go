@@ -28,8 +28,8 @@ func main() {
 
 	// slice的append
 	sss1 := make([]rune, 5, 10)
-	sss2 :=make([]rune,1,2)
-	sss1 = append(sss1, 1, 2, 3, 4, 5, 6)
-	sss1 = append(sss1,sss2)
+	sss2 := make([]rune, 1, 2)
+	sss1 = append(sss1, 1, 2, 3, 4, 5, 6)  //
+	sss1 = append(sss1, sss2...)
 	fmt.Println("slice的append", sss1, cap(sss1))
 }
