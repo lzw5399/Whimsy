@@ -29,7 +29,13 @@ func main() {
 	// slice的append
 	sss1 := make([]rune, 5, 10)
 	sss2 := make([]rune, 1, 2)
-	sss1 = append(sss1, 1, 2, 3, 4, 5, 6)  //
-	sss1 = append(sss1, sss2...)
+	sss1 = append(sss1, 1, 2, 3, 4, 5, 6) // append多个rune
+	sss1 = append(sss1, sss2...)          // append另一个slice
 	fmt.Println("slice的append", sss1, cap(sss1))
+
+	// 对slice,array进行foreach
+	// 如果需要改变数组原值，使用slice[i]进行操作
+	for i, v := range sss1 {
+		fmt.Println("index", i, "value", v)
+	}
 }
