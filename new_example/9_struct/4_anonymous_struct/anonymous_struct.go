@@ -18,6 +18,18 @@ func main() {
 		message string
 	}{"lilei", "nice to meet you"}
 	printMessage(msg)
+
+	// 使用struct里包含【匿名struct】的情况
+	p := Programmer{
+		Name: "张三",
+		Contact: struct {
+			Phone, City string
+		}{
+			Phone: "6666",
+			City:  "shanghai",
+		},
+	}
+	fmt.Println(p)
 }
 
 func printMessage(obj *struct {
@@ -26,4 +38,11 @@ func printMessage(obj *struct {
 }) {
 	fmt.Printf("%T\r\n", obj)
 	fmt.Println(obj.name, obj.message)
+}
+
+type Programmer struct {
+	Name    string
+	Contact struct {
+		Phone, City string
+	}
 }

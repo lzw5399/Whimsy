@@ -12,6 +12,7 @@ type Cat struct {
 // 1、【blackCat.成员名.Name】
 type BlackCat struct {
 	Cat // 不写成员名，这种用法叫【嵌入】
+	Hobby string
 }
 
 // 由于go不支持重载，所以这边构造函数的名字不能一样啊
@@ -26,7 +27,13 @@ func NewCat(name string, color string) *Cat {
 
 // 子struct构造函数
 func NewBlackCat(color string) *BlackCat {
-	cat := new(BlackCat) // 这种写法等同于 cat := &BlackCat{}
-	cat.Color = color
+	// cat := new(BlackCat) 或者用new也一样
+	cat := &BlackCat{
+		Cat:   Cat{
+			Name:  "dsds",
+			Color: color,
+		},
+		Hobby: "ggg",
+	}
 	return cat
 }
