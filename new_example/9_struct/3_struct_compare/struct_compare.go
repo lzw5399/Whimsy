@@ -10,6 +10,7 @@ func main() {
 	b := role{1, "学生"}
 	c := role{1, "教师"}
 	fmt.Println(a == b, a == c)
+	fmt.Printf("%T\r\n", c)
 }
 
 type role struct {
