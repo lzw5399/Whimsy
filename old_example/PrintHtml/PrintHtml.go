@@ -18,4 +18,5 @@ func main() {
 		panic(err)
 	}
 	fmt.Printf("body = %s\n", string(body))
+	defer r.Body.Close()
 }
