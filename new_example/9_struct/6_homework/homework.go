@@ -1,6 +1,7 @@
 package main
 
 import (
+	"encoding/json"
 	"fmt"
 )
 
@@ -18,7 +19,7 @@ func main() {
 	// fmt.Println(f, f.Name, f.Contact.Name)
 
 	// 测试子类
-	s :=Son{
+	s := Son{
 		Father: Father{
 			Name: "父类外层Name",
 			Contact: struct {
@@ -27,7 +28,7 @@ func main() {
 				Name: "父类里层Name",
 			},
 		},
-		Name:   "子类外层Name",
+		Name: "子类外层Name",
 		//Contact: struct {
 		//	Name string
 		//}{
@@ -36,19 +37,30 @@ func main() {
 	}
 
 	fmt.Println(s)
+
+	// json的序列化和反序列化
+	jsonData, _ := json.Marshal(s)
+	fmt.Println(jsonData)
+	fmt.Println(string(jsonData))
+	xx := new(Son)
+	err := json.Unmarshal(jsonData, xx)
+	if err != nil {
+		panic("error")
+	}
+	fmt.Println(xx)
 }
 
 type Father struct {
-	Name    string
+	Name       string
 	FatherName string
-	Contact struct {
+	Contact    struct {
 		Name string
 	}
 }
 
 type Son struct {
 	Father
-	Hi int
+	Hi   int
 	Name string
 	//Contact struct{
 	//	Name string
