@@ -13,6 +13,9 @@ func main() {
 	}
 	u.Hello()
 	Info(u)
+
+	var a rune
+	Info(a)
 }
 
 type User struct {
@@ -29,6 +32,11 @@ func Info(obj interface{}) {
 	t := reflect.TypeOf(obj) // 对象的类型信息
 	fmt.Println(t.Name())
 
+	if k := t.Kind(); k != reflect.Struct {
+		fmt.Println("当前对象类型不为struct")
+		return
+	}
+
 	v := reflect.ValueOf(obj) // 对象的值信息
 
 	// 打印字段信息
@@ -43,4 +51,5 @@ func Info(obj interface{}) {
 		m := t.Method(i)
 		fmt.Printf("%s: %v\r\n", m.Name, m.Type)
 	}
+
 }
