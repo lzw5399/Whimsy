@@ -14,6 +14,7 @@ func main() {
 		close(c)
 	}()
 
+	// range chan只有一个返回值
 	// 在迭代的过程中一直在等待chan，有一个值进去，才会打印
 	for v := range c {
 		fmt.Println(v)
