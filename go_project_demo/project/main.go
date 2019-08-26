@@ -1,7 +1,7 @@
 package main
 
-// 这个路径是gopath之下src下面的路径
-// 这是单一gopath的好处
+// 由于go module的前缀是github.com/zhiwen-kooboo/GolangDemo
+// 所以import是这样的目录结构
 import "github.com/zhiwen-kooboo/GolangDemo/go_project_demo/test_package"
 
 func main() {
