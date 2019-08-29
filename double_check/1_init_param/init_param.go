@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"net"
+	"time"
 )
 
 func main() {
@@ -14,4 +15,9 @@ func main() {
 	a, b := 1, 2
 	a, b = b, a
 	fmt.Println(a, b)
+
+	var by []byte = []byte{1, 2, 3, 4, 5}
+	fmt.Println(len(by))
+
+	time.Now()
 }
