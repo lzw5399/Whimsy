@@ -12,9 +12,9 @@ func main() {
 	// 多个goroutine，主线程如何确保同时完成
 	// 方案1、通过带缓存的chan来完成
 	//c := make(chan int, 10)
-	//for i := 0; i < 10; i++ {
-	//	go hello(c, i)
-	//}
+	for i := 0; i < 10; i++ {
+		go hello(c, i)
+	}
 	//for i := 0; i < 10; i++ {
 	//	<-c
 	//}
