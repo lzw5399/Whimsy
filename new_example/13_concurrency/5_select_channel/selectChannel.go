@@ -8,9 +8,9 @@ import (
 func main() {
 	// getChannelValueBySelect()
 
-	// setChannelValueBySelect()
+	setChannelValueBySelect()
 
-	timeoutSample()
+	// timeoutSample()
 }
 
 // 使用select给获取channel的值
