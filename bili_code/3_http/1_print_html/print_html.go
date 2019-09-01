@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	resp, err := http.Get("https://go.codepie.fun")
+	resp, err := http.Get("http://127.0.0.1:8880/user/login")
 	handleError(err)
 	defer resp.Body.Close()
 	body, err := ioutil.ReadAll(resp.Body)
