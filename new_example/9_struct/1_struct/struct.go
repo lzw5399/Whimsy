@@ -9,7 +9,7 @@ func main() {
 	p1 := new(person)
 	p1.id = 1
 	p1.Name = "zhangsan"
-	fmt.Printf("%T\r\n",p1)
+	fmt.Printf("%T\r\n", p1)
 
 	// 第二种，也是最常用，直接指定属性名称来指定值
 	p2 := person{Name: "233", id: 2333}
@@ -28,5 +28,3 @@ type person struct {
 	id   rune
 	Name string
 }
-
-
