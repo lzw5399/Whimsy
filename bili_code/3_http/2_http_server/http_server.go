@@ -18,18 +18,18 @@ func main() {
 }
 
 func handleMain(w http.ResponseWriter, r *http.Request) {
-	//start := time.Now()
-	//defer func() {
-	//	cost := time.Since(start)
-	//	fmt.Println("cost:", cost.Seconds())
-	//}()
+	// 接收参数，默认不会接收
+	_ = r.ParseForm()
+	fmt.Println("所有的参数", r.Form)
+	fmt.Println("Host", r.URL.Host)
+	fmt.Println("Path", r.URL.Path)
 	fmt.Println("welcome to goland world!")
 	// 这个是向网页输出的内容
-	fmt.Fprintf(w, "hello")
+	_, _ = fmt.Fprintf(w, "hello")
 }
 
 func handleLogin(w http.ResponseWriter, r *http.Request) {
 	fmt.Println("request login")
 	// 这个是向网页输出的内容
-	fmt.Fprintf(w, "login")
+	_, _ = fmt.Fprintf(w, "login")
 }
