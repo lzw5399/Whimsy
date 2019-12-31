@@ -1,5 +1,5 @@
 // 常量&枚举
-package Variable_Const
+package main
 
 import "fmt"
 
@@ -8,8 +8,8 @@ const (
 	a      = 'A'
 	Monday = iota
 	Tuesday
-	Wednesday
-	Thursday
+	Wednesday = 5
+	Thursday = iota
 	Friday
 	Saturday
 	Sunday

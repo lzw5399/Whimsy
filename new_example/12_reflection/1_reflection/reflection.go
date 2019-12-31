@@ -41,7 +41,8 @@ func Info(obj interface{}) {
 
 	// 打印字段信息
 	for i := 0; i < t.NumField(); i++ {
-		tt := t.Field(i)                // 字段的类型信息
+		tt := t.Field(i) // 字段的类型信息
+
 		value := v.Field(i).Interface() // 字段的值信息
 		fmt.Printf("%s:%v=%v\r\n  ", tt.Type, tt.Name, value)
 	}
