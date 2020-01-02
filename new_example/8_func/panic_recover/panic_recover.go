@@ -22,6 +22,6 @@ func p2() {
 	panic("this is panic")
 }
 
-func p3(){
+func p3() {
 	fmt.Println("p3")
 }

@@ -7,7 +7,7 @@ import (
 func main() {
 	// defer普通调用
 	//fmt.Println("1")
-	//f11()
+	f11()
 	//fmt.Println("2")
 
 	// defer闭包调用
