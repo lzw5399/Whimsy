@@ -4,10 +4,12 @@ import "fmt"
 
 func main() {
 	a := &A{
-		Number: 0,
+		Number: 2,
 	}
 	// 调用接收器
 	fmt.Println(a.IsZero())
+
+	fmt.Println(a.AddNumber(4))
 }
 
 type A struct {
@@ -24,4 +26,9 @@ func (a A) IsZero() bool {
 
 func (b B) IsZero() bool {
 	return b.Number == 0
+}
+
+func (a A) AddNumber(num int) (r int) {
+	r = a.Number + num
+	return
 }

@@ -20,6 +20,7 @@ func main() {
 
 	// 测试子类
 	s := Son{
+		int: 1,
 		Father: Father{
 			Name: "父类外层Name",
 			Contact: struct {
@@ -28,7 +29,7 @@ func main() {
 				Name: "父类里层Name",
 			},
 		},
-		Name: "子类外层Name",
+		Name: "子类外层Name233333333333",
 		//Contact: struct {
 		//	Name string
 		//}{
@@ -59,6 +60,7 @@ type Father struct {
 }
 
 type Son struct {
+	int
 	Father
 	Hi   int
 	Name string
