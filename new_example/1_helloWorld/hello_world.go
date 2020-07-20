@@ -32,6 +32,8 @@ type gopher struct{}
 // 定义接口
 type golang interface{}
 
+type alias int32
+
 func main() {
 	test.Println(PI)
 
