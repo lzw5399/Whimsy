@@ -16,9 +16,14 @@ func main() {
 		str        字符串     = "类型别名" // 类型别名
 		q, w, e, r         = 0, 1, 2, 3
 	)
+
 	t := "t"
 
-	fmt.Println(a)
+	var (
+		ff = 122
+	)
+
+	fmt.Println(a, ff)
 	fmt.Println(str)
 	fmt.Println(q + w + e + r)
 	fmt.Println(t)
