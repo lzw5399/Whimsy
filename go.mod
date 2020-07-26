@@ -1,4 +1,4 @@
-module github.com/zhiwen-kooboo/GolangDemo
+module github.com/lzw5399/whimsy
 
-go 1.12
+go 1.14
 
